@@ -1,0 +1,97 @@
+Créer le wireframe d’un portfolio professionnel personnel pour Laurine Carmen Abiyou, en formation en développement web dans le cadre du programme D-CLIC.
+
+OBJECTIF :
+Le portfolio doit présenter mon profil, mon parcours, mes compétences techniques et mes projets. Il doit également montrer mon évolution vers le développement web et servir de présence professionnelle en ligne.
+
+PUBLIC CIBLE :
+- recruteurs ;
+- entreprises du numérique ;
+- professionnels du web ;
+- potentiels clients ou collaborateurs.
+
+STRUCTURE DU PORTFOLIO :
+
+1. HEADER
+- Afficher le nom « Laurine Carmen Abiyou ».
+- Ajouter une navigation simple :
+  Accueil, À propos, Compétences, Projets, Contact.
+- Prévoir une version adaptée aux petits écrans.
+
+2. HERO
+Créer une section d’accueil forte et professionnelle avec :
+- mon nom ;
+- le titre « Développeuse web en formation » ;
+- une courte présentation ;
+- un bouton « Voir mes projets » ;
+- un bouton « Me contacter ».
+Ajouter un élément visuel moderne représentant le développement web.
+
+3. À PROPOS
+Présenter brièvement :
+- mon parcours ;
+- ma formation ;
+- mon orientation vers le développement web ;
+- mon objectif professionnel.
+
+4. COMPÉTENCES
+Présenter sous forme de cartes :
+- HTML5 ;
+- CSS3 ;
+- JavaScript ;
+- Responsive Design ;
+- UI / Web Design ;
+- SEO et Web Analytics.
+
+Ne pas utiliser de pourcentages de maîtrise.
+
+5. PROJETS
+Présenter trois projets :
+- Style Gallery : projet de site e-commerce consacré à la mode féminine ;
+- Portfolio D-CLIC : portfolio professionnel réalisé dans le cadre de la formation ;
+- Mini-projets HTML/CSS : travaux pratiques réalisés pendant l’apprentissage.
+
+Chaque projet doit comporter :
+- un emplacement pour une image ;
+- le nom du projet ;
+- une courte description ;
+- les technologies utilisées ;
+- un bouton permettant de découvrir le projet.
+
+Mettre davantage en valeur le projet Style Gallery.
+
+6. ÉVOLUTION
+Créer une petite section chronologique présentant mon évolution :
+Formation → apprentissage du développement web → projets pratiques → projet final D-CLIC.
+
+7. CONTACT
+Créer une section permettant aux visiteurs de prendre contact avec moi.
+Prévoir un formulaire simple avec :
+- nom ;
+- adresse e-mail ;
+- message ;
+- bouton d'envoi.
+
+8. FOOTER
+Afficher :
+- mon nom ;
+- copyright ;
+- liens utiles.
+
+STYLE VISUEL :
+Créer un design moderne, élégant, professionnel et féminin, avec une orientation technologique.
+
+Utiliser principalement :
+- ivoire / crème ;
+- brun foncé ;
+- bordeaux discret ;
+- petites touches dorées.
+
+Le design doit être épuré avec une bonne hiérarchie visuelle et suffisamment d’espace entre les éléments.
+
+RESPONSIVE :
+Prévoir le wireframe pour :
+- ordinateur ;
+- tablette ;
+- smartphone.
+
+La navigation et les différentes sections doivent rester faciles à utiliser sur les petits écrans.
