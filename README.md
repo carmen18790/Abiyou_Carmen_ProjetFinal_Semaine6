@@ -71,18 +71,33 @@ Une attention particulière est portée à la lisibilité, à la navigation et �
 ## 📁 Organisation du projet
 
 ```text
-portfolio-dclic/
-├── README.md
-├── prompts/
-│   ├── prompt-v1.txt
-│   └── prompt-v2.txt
-├── exports/
-├── preuves/
-└── portfolio/
-    ├── index.html
-    ├── style.css
-    └── script.js
-```
+Abiyou_Carmen_ProjetFinal_Semaine6/
+│
+├── wireframe/
+│   ├── prompts/
+│   │   ├── prompt-v1.txt
+│   │   └── prompt-v2.txt
+│   │
+│   └── exports_stitch/
+│       ├── export-v1...
+│       └── export-v2...
+│
+├── figma/
+│
+├── site/
+│   ├── index.html
+│   ├── projects.html
+│   │
+│   ├── css/
+│   │   └── style.css
+│   │
+│   ├── js/
+│   │   └── app.js
+│   │
+│   └── assets/
+│       └── images/
+│
+└── README.txt
 
 ## 🎨 Conception
 
