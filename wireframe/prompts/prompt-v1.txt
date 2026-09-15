@@ -81,10 +81,10 @@ STYLE VISUEL :
 Créer un design moderne, élégant, professionnel et féminin, avec une orientation technologique.
 
 Utiliser principalement :
-- ivoire / crème ;
-- brun foncé ;
-- bordeaux discret ;
-- petites touches dorées.
+- rose / crème ;
+- rose foncé ;
+- rose discret ;
+- petites touches rosées.
 
 Le design doit être épuré avec une bonne hiérarchie visuelle et suffisamment d’espace entre les éléments.
 
