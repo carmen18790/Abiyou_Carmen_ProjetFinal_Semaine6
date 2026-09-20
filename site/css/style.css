@@ -29,6 +29,10 @@ a { color:inherit;
 
 }
 
+.nom{
+	font-size: 2rem;
+}
+
 	.pastille1, .pastille2{
 	padding:6px;
 	background-color: var(--pink);
@@ -40,34 +44,45 @@ a { color:inherit;
 	.marque{
 		display: flex;
 		gap:5px;
-		
+		align-items:center;
+		font-size:1rem;
+		font-weight:bold;
 	}
 
-	.en-tete{ 
-	width: 100%;
-	height:60px;
-padding:25px;
-	justify-content: space-between;
-display:flex;
-align-items:center;
-
-
+	.en-tete{
+		width:min(1180px, calc(100% - 80px));
+		min-height:60px;
+		margin:0 auto;
+		padding:18px 0;
+		display:flex;
+		align-items:center;
+		justify-content:space-between;
+		gap:28px;
 	}
 
 	nav{
-	display:flex;
-	gap:20px;	
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		gap:24px;
+		flex:1;
 	}
 
-	nav a:hover{
-		color:	#BE185D ;
+	nav a{
+		font-size:.9rem;
+		transition:color .2s ease;
 	}
+
+	nav a:hover{ color:#be185d; }
 
 	.contact{
-		background-color: #e62f7b ;
-		border-radius: 20px;
-		padding:10px;
-		color:white;
+		padding:11px 17px;
+		border-radius:999px;
+		background:var(--pink);
+		color:#fff;
+		font-size:.88rem;
+		white-space:nowrap;
+		transition:transform .2s ease, box-shadow .2s ease;
 	}
 
 	.contact:hover{
@@ -226,7 +241,7 @@ align-items:center;
 	@keyframes float-in{ from{opacity:0; transform:translateY(24px) scale(.96);} to{opacity:1; transform:translateY(0) scale(1);} }
 
 	@media (max-width: 760px){
-		.en-tete{ height:auto; min-height:60px; padding:18px 20px; flex-wrap:wrap; gap:16px; }
+		.en-tete{ width:calc(100% - 40px); height:auto; min-height:60px; padding:18px 0; flex-wrap:wrap; gap:16px; }
 		nav{ order:3; width:100%; justify-content:space-between; gap:8px; overflow-x:auto; }
 		nav a{ font-size:.82rem; white-space:nowrap; }
 		.contact{ padding:8px 12px; font-size:.85rem; }
@@ -244,3 +259,142 @@ align-items:center;
 		.actions-accueil{ align-items:flex-start; flex-direction:column; gap:16px; }
 		.carte-code{ padding:22px; font-size:.78rem; }
 	}
+
+	.a-propos{
+		width:min(1180px, calc(100% - 80px));
+		margin:0 auto;
+		padding:42px 0 100px;
+		display:block;
+	}
+
+	.contenu-a-propos{ width:100%; }
+	.a-propos .information{
+		margin:0 0 12px;
+		animation:rise-in .7s ease both;
+	}
+
+	.titre-a-propos, .titre-competence{
+		max-width:none;
+		margin:0;
+		font-size:clamp(2.4rem, 5vw, 4.5rem);
+		font-weight:400;
+		line-height:1.05;
+		animation:rise-in .8s .12s ease both;
+	}
+
+	.texte-a-propos{
+		max-width:none;
+		margin:22px 0 0;
+		font-size:1.08rem;
+		animation:rise-in .8s .24s ease both;
+	}
+
+	.cartes-parcours{
+		margin-top:30px;
+		display:grid;
+		grid-template-columns:repeat(3, minmax(0, 1fr));
+		gap:24px;
+		animation:float-in 1s .3s ease both;
+	}
+
+	.carte-parcours{
+		padding:16px;
+		background:#fff;
+		border:1px solid var(--line);
+		border-radius:20px;
+		box-shadow:0 13px 28px rgba(233, 0, 91, .16);
+		
+	}
+
+	.carte-parcours:hover{
+		transform:translateY(-10px);
+	}
+
+	.image-parcours, .image-box{
+		display:block;
+		width:100%;
+		height:220px;
+		object-fit:cover;
+		border-radius:14px;
+	}
+
+	.contenu-carte-parcours{ padding:8px 8px 2px; }
+
+	.numero{
+		margin:0 0 26px;
+		color:var(--pink);
+		font-size:.78rem;
+		font-weight:bold;
+		letter-spacing:.16em;
+	}
+
+	.titre-parcours{ margin:0; font-size:1.7rem; }
+	.carte-parcours p:not(.numero){ margin-bottom:0; }
+
+	@media (max-width: 760px){
+		.a-propos{
+			width:min(100% - 40px, 580px);
+			padding:38px 0 80px;
+		}
+		.cartes-parcours{ grid-template-columns:1fr; margin-top:42px; }
+}
+
+.titre-competence{
+	width:100%;
+	text-align: center;
+}
+
+.section-competences{
+	grid-column:1 / -1;
+	width:100%;
+	margin-top:34px;
+}
+
+.boites-competences{
+	display:grid;
+	grid-template-columns:repeat(3, minmax(0, 1fr));
+	gap:24px;
+	margin-top:28px;
+	animation:float-in 1s .42s ease both;
+}
+
+.box-competence1, .box-competence2, .box-competence3{
+	min-height:230px;
+	padding:24px;
+	background:rgba(255, 255, 255, .8);
+	border:1px solid var(--line);
+	border-radius:20px;
+	box-shadow:0 13px 28px rgba(233, 0, 91, .12);
+	transition:transform .2s ease, box-shadow .2s ease;
+}
+
+.box-competence1:hover, .box-competence2:hover, .box-competence3:hover{
+	transform:translateY(-8px);
+	box-shadow:0 16px 32px rgba(233, 0, 91, .2);
+}
+
+.box-competence1 h3, .box-competence2 h3, .box-competence3 h3{
+	margin:0;
+	font-size:1.45rem;
+}
+
+.box-competence1 p:not(.numero), .box-competence2 p:not(.numero), .box-competence3 p:not(.numero){
+	margin:14px 0 22px;
+}
+
+.etiquette-competence{
+	display:inline-block;
+	padding:7px 10px;
+	border-radius:999px;
+	background:#fff;
+	color:#8e2858;
+	font-size:.72rem;
+	letter-spacing:.04em;
+}
+
+@media (max-width: 760px){
+	.boites-competences{
+		grid-template-columns:1fr;
+	}
+}
+
