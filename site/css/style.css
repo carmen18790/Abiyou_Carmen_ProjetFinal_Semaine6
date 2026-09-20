@@ -516,6 +516,12 @@ a { color:inherit;
 
 .bas-pied-page a:hover{ color:#f9a8d4; }
 
+.etat-formulaire{
+	margin:18px 0 0;
+	color:#f9a8d4;
+	font-size:.82rem;
+}
+
 @media (max-width: 760px){
 	.pied-page{ padding:46px 20px 22px; }
 	.contenu-pied-page{ grid-template-columns:1fr; gap:28px; }

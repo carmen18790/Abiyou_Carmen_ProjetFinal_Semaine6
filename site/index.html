@@ -133,20 +133,21 @@
       <h2 class="titre-pied-page">Parlons de votre idée.</h2>
     </div>
 
+   
     <form class="formulaire-contact" action="mailto:abiyoulaurine7@gmail.com" method="post" enctype="text/plain">
       <div class="champs-formulaire">
         <label for="nom">Nom et prenoms</label>
-        <input id="nom" name="nom" type="text" autocomplete="name" required>
+        <input id="nom" name="nom" type="text" autocomplete="name" required placeholder="Kouakou Jean">
       </div>
 
       <div class="champs-formulaire">
         <label for="email">Adresse email</label>
-        <input id="email" name="email" type="email" autocomplete="email" required>
+        <input id="email" name="email" type="email" autocomplete="email" required placeholder="exemple@gmail.com">
       </div>
 
       <div class="champs-formulaire champs-large">
         <label for="message">Votre message</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
+        <textarea id="message" name="message" rows="5" required placeholder="écrivez votre message"></textarea>
       </div>
 
       <button class="bouton-formulaire" type="submit">Envoyer le message <span aria-hidden="true">↗</span></button>
@@ -158,10 +159,13 @@
     <a href="tel:+2250546648640">+225 05 46 64 86 40</a>
   </address>
 
+  <p class="etat-formulaire" role="status" aria-live="polite"></p>
+
   <div class="bas-pied-page">
     <span>© 2026 Abiyou Carmen</span>
     <a href="#accueil">Retour en haut ↑</a>
   </div>
 </footer>
+<script src="js/app.js" defer></script>
 </body>
 
