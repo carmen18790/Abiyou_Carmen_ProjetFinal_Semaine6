@@ -1,3 +1,3 @@
 document.addEventListener("DOMContentLoaded", () => {
-  document.body.classList.add("is-ready");
+  document.body.classList.add("pret");
 });
