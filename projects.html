@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fr"> 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio professionnel de Laurine Carmen Abiyou, développeuse web junior.">
+  <title>Laurine Carmen Abiyou — Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="en-tete">
+
+  <a class="marque" href="#accueil"><span class="pastille1"></span><span class="nom">Abiyou Carmen</span></a>
+
+  <nav aria-label="navigation principale">
+
+    <a href="index.html#accueil">Accueil</a>
+    <a href="index.html#apropos">À propos</a>
+    <a href="index.html#competences">Compétences</a>
+    <a href="projects.html">Projets</a>
+    <a href="index.html#contact">Contact</a>
+  
+  </nav>
+  <a class="contact" href="#contact">Me contacter</a>
+
+</header>
+
+<main class="page-projets">
+  <section class="introduction-projets">
+    <p class="information">Devoir de marketing digital · Réalisation individuelle</p>
+    <h1 class="titre-projets">Des projets numériques pensés pour être utiles et visibles.</h1>
+    <p class="texte-projets">Découvrez les projets réalisés pendant mon parcours, entre création de contenu, communication digitale et développement web.</p>
+  </section>
+
+  <section class="grille-projets" aria-label="Liste des projets">
+    <article class="fiche-projet">
+      <img class="image-projet" src="assets/images/projet-cosmetics-bio.png" alt="Univers de la cosmétique naturelle">
+      <div class="contenu-projet">
+        <p class="numero">01</p>
+        <h2>Cosmetics Bio</h2>
+        <p class="type-projet">Devoir de marketing digital · Site réalisé sur Blogger</p>
+        <p>Dans le cadre d'un devoir de marketing digital, j'ai conçu et réalisé le site Cosmetics Bio autour de la beauté naturelle et des soins bio. Il propose des conseils, des recettes, des articles sur les ingrédients naturels et un programme découverte.</p>
+        <div class="etiquettes-projet">
+          <span>Marketing digital</span>
+          <span>Création de contenu</span>
+          <span>SEO</span>
+        </div>
+        <a class="bouton-projet" href="https://cosmeticsbioci.blogspot.com/" target="_blank" rel="noopener noreferrer">Voir le projet <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+  </section>
+</main>
+
+<footer class="pied-page" id="contact">
+  <div class="contenu-pied-page">
+    <div>
+      <p class="information">Un projet en tête ?</p>
+      <h2 class="titre-pied-page">Parlons de votre idée.</h2>
+    </div>
+
+    <form class="formulaire-contact" action="mailto:abiyoulaurine7@gmail.com" method="post" enctype="text/plain">
+      <div class="champs-formulaire">
+        <label for="nom">Nom et prenoms</label>
+        <input id="nom" name="nom" type="text" autocomplete="name" required placeholder="Kouakou Jean">
+      </div>
+
+      <div class="champs-formulaire">
+        <label for="email">Adresse email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required placeholder="exemple@gmail.com">
+      </div>
+
+      <div class="champs-formulaire champs-large">
+        <label for="message">Votre message</label>
+        <textarea id="message" name="message" rows="5" required placeholder="écrivez votre message"></textarea>
+      </div>
+
+      <button class="bouton-formulaire" type="submit">Envoyer le message <span aria-hidden="true">↗</span></button>
+    </form>
+  </div>
+
+  <address class="coordonnees">
+    <a href="mailto:abiyoulaurine7@gmail.com">abiyoulaurine7@gmail.com</a>
+    <a href="tel:+2250546648640">+225 05 46 64 86 40</a>
+  </address>
+
+  <p class="etat-formulaire" role="status" aria-live="polite"></p>
+
+  <div class="bas-pied-page">
+    <span>© 2026 Abiyou Carmen</span>
+    <a href="#accueil">Retour en haut ↑</a>
+  </div>
+</footer>
+<script src="js/app.js" defer></script>
+</body>
+</html>
