@@ -14,13 +14,79 @@
 
   <nav aria-label="navigation principale">
 
-    <a href="#accueil">Accueil</a>
-    <a href="#apropos">À propos</a>
-    <a href="#competences">Compétences</a>
-    <a href="#projects">Projets</a>
-    <a href="#contact">Contact</a>
+    <a href="index.html#accueil">Accueil</a>
+    <a href="index.html#apropos">À propos</a>
+    <a href="index.html#competences">Compétences</a>
+    <a href="projects.html">Projets</a>
+    <a href="index.html#contact">Contact</a>
   
   </nav>
   <a class="contact" href="#contact">Me contacter</a>
 
 </header>
+
+<main class="page-projets">
+  <section class="introduction-projets">
+    <p class="information">Projet de groupe · Marketing digital</p>
+    <h1 class="titre-projets">Des projets numériques pensés pour être utiles et visibles.</h1>
+    <p class="texte-projets">Découvrez les projets réalisés pendant mon parcours, entre création de contenu, communication digitale et développement web.</p>
+  </section>
+
+  <section class="grille-projets" aria-label="Liste des projets">
+    <article class="fiche-projet">
+      <img class="image-projet" src="C:\Users\EliteBook\OneDrive\Abiyou_Carmen_ProjetFinal_Semaine6\site\assets\images\Capture d'écran 2026-09-20 182903.png" alt="Univers de la cosmétique naturelle">
+      <div class="contenu-projet">
+        <p class="numero">01</p>
+        <h2>Cosmetics Bio</h2>
+        <p class="type-projet">Site éditorial · Blogger</p>
+        <p>Projet de groupe consacré à la beauté naturelle et aux soins bio. Le site propose des conseils, des recettes, des articles sur les ingrédients naturels et un programme découverte.</p>
+        <div class="etiquettes-projet">
+          <span>Marketing digital</span>
+          <span>Création de contenu</span>
+          <span>SEO</span>
+        </div>
+        <a class="bouton-projet" href="https://cosmeticsbioci.blogspot.com/" target="_blank" rel="noopener noreferrer">Voir le projet <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+  </section>
+</main>
+
+<footer class="pied-page" id="contact">
+  <div class="contenu-pied-page">
+    <div>
+      <p class="information">Un projet en tête ?</p>
+      <h2 class="titre-pied-page">Parlons de votre idée.</h2>
+    </div>
+
+    <form class="formulaire-contact" action="mailto:abiyoulaurine7@gmail.com" method="post" enctype="text/plain">
+      <div class="champs-formulaire">
+        <label for="nom">Nom et prenoms</label>
+        <input id="nom" name="nom" type="text" autocomplete="name" required>
+      </div>
+
+      <div class="champs-formulaire">
+        <label for="email">Adresse email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required>
+      </div>
+
+      <div class="champs-formulaire champs-large">
+        <label for="message">Votre message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+
+      <button class="bouton-formulaire" type="submit">Envoyer le message <span aria-hidden="true">↗</span></button>
+    </form>
+  </div>
+
+  <address class="coordonnees">
+    <a href="mailto:abiyoulaurine7@gmail.com">abiyoulaurine7@gmail.com</a>
+    <a href="tel:+2250546648640">+225 05 46 64 86 40</a>
+  </address>
+
+  <div class="bas-pied-page">
+    <span>© 2026 Abiyou Carmen</span>
+    <a href="#accueil">Retour en haut ↑</a>
+  </div>
+</footer>
+</body>
+</html>

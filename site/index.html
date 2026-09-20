@@ -124,8 +124,44 @@
 
     </div>
   </section>
-  
+
 </main>
-<footer></footer>
+<footer class="pied-page" id="contact">
+  <div class="contenu-pied-page">
+    <div>
+      <p class="information">Un projet en tête ?</p>
+      <h2 class="titre-pied-page">Parlons de votre idée.</h2>
+    </div>
+
+    <form class="formulaire-contact" action="mailto:abiyoulaurine7@gmail.com" method="post" enctype="text/plain">
+      <div class="champs-formulaire">
+        <label for="nom">Nom et prenoms</label>
+        <input id="nom" name="nom" type="text" autocomplete="name" required>
+      </div>
+
+      <div class="champs-formulaire">
+        <label for="email">Adresse email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required>
+      </div>
+
+      <div class="champs-formulaire champs-large">
+        <label for="message">Votre message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+
+      <button class="bouton-formulaire" type="submit">Envoyer le message <span aria-hidden="true">↗</span></button>
+    </form>
+  </div>
+
+  <address class="coordonnees">
+    <a href="mailto:abiyoulaurine7@gmail.com">abiyoulaurine7@gmail.com</a>
+    <a href="tel:+2250546648640">+225 05 46 64 86 40</a>
+  </address>
+
+  <div class="bas-pied-page">
+    <span>© 2026 Abiyou Carmen</span>
+    <a href="#accueil">Retour en haut ↑</a>
+  </div>
+</footer>
 </body>
 
